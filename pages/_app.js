@@ -52,7 +52,11 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://jamesmanalang.vercel.app" />
         <meta property="og:type" content="website" />
 
-        <meta property="og:image" content="/preview.png" />
+        <meta
+          property="og:image"
+          content="https://jamesmanalang.vercel.app/preview.png"
+        />
+        <meta og:image />
         <meta name="twitter:card" content="James' Portfolio" />
         <meta name="twitter:site" content="@jamesmanalang_" />
         <meta name="twitter:title" content="James' Portfolio" />
@@ -60,7 +64,10 @@ export default function App({ Component, pageProps }) {
           name="twitter:description"
           content="James Manalang Web Portfolio"
         />
-        <meta name="twitter:image" content="/preview.png" />
+        <meta
+          name="twitter:image"
+          content="https://jamesmanalang.vercel.app/preview.png"
+        />
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="James Manalang Web Portfolio" />
 
