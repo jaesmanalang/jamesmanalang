@@ -11,10 +11,10 @@ export default function Footer() {
     <footer className="pt-20 pb-8" id="contact">
       <div className="container flex flex-col items-center">
         <div className="max-w-lg text-center">
-          <h2 className="font-bold font-display text-6xl mb-4">
-            Say hi to James.
+          <h2 className="font-bold font-display lg:text-6xl md:text-5xl text-3xl mb-4">
+            Shoot me an email
           </h2>
-          <p className="mb-8 text-sm">
+          <p className="mb-8 lg:text-normal text-sm">
             I would love to hear from you. Whether it's a project, job
             opportunity, or just a chat. Feel free to contact me.
           </p>
@@ -46,7 +46,7 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-        <p className="text-gray-500 text-sm">
+        <p className="text-gray-500 lg:text-normal text-sm lg:text-left text-center">
           Built by James Manalang and design inspiration from{' '}
           <Link href="https://www.kennethvega.com/">Kenneth Vega</Link>
         </p>

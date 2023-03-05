@@ -5,9 +5,11 @@ export default function Card({ project }) {
   const { name, description, demo, stacks, repo } = project;
 
   return (
-    <article className="flex flex-col items-start rounded-md border border-mute p-6 hover:scale-105 transition-transform will-change-transform ease-out duration-300">
-      <h3 className="font-bold font-display text-3xl mb-2">{name}</h3>
-      <div className="text-sm mb-3">
+    <article className="flex flex-col items-start rounded-md border border-mute md:p-6 p-5 hover:scale-105 transition-transform will-change-transform ease-out duration-300">
+      <h3 className="font-bold font-display lg:text-3xl md:text-2xl text-xl mb-2">
+        {name}
+      </h3>
+      <div className="lg:text-normal text-sm mb-3">
         <p>{description}</p>
       </div>
       <div className="mt-auto">

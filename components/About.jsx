@@ -65,12 +65,13 @@ export default function About() {
   return (
     <section className="py-8" id="about">
       <div className="container">
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-8 md:gap-4">
           <div className="col-span-1">
-            <h2 className="font-bold font-display text-6xl py-4 mb-2">
+            <h2 className="font-bold font-display lg:text-6xl md:text-5xl text-3xl py-4 mb-2">
               About me
             </h2>
-            <p className="mb-5 text-sm">
+
+            <p className="mb-5 lg:text-normal text-sm">
               Hello! My name is James Manalang, and I am a front-end developer
               with almost 2 years of experience.
               <br />
@@ -83,7 +84,7 @@ export default function About() {
               <br />
               Here are the technologies I’ve been working with:
             </p>
-            <div className="grid grid-cols-3 text-sm gap-2">
+            <div className="grid grid-cols-3 lg:text-normal text-sm gap-2">
               {techStack.map((item, index) => (
                 <div key={index} className="flex items-center gap-2 col-span-1">
                   {item.icon}
@@ -99,6 +100,7 @@ export default function About() {
                 src="/profile-picture.jpeg"
                 fill
                 sizes="50vw"
+                alt="James' Photo"
               />
             </div>
           </div>

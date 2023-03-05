@@ -13,9 +13,12 @@ module.exports = {
         md: '768px',
         lg: '1024px',
       },
-      padding: {},
+      padding: '1.25rem',
     },
     extend: {
+      fontSize: {
+        normal: ['0.938rem', '1.375rem'],
+      },
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
         display: ['var(--font-display)', ...fontFamily.sans],

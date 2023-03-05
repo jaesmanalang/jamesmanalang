@@ -15,12 +15,12 @@ export default function Hero() {
       id="hero"
     >
       <div className="container">
-        <h1 className="font-extrabold font-display lg:text-[7rem] leading-none tracking-tight mb-5">
-          Hello, I’m James
+        <h1 className="font-extrabold font-display lg:text-[7rem] md:text-[5rem] text-4xl leading-none md:tracking-tight mb-5">
+          Hello, <br className="md:hidden" /> I’m James
           <br />
           Front-end Developer
         </h1>
-        <p className="text-xl leading-relaxed font-light max-w-2xl">
+        <p className="md:text-xl text-lg leading-relaxed font-light max-w-2xl">
           Specializing in crafting design concepts into functional, responsive,
           and user-friendly interfaces.
         </p>
