@@ -56,7 +56,6 @@ export default function App({ Component, pageProps }) {
           property="og:image"
           content="https://jamesmanalang.vercel.app/preview.png"
         />
-        <meta og:image />
         <meta name="twitter:card" content="James' Portfolio" />
         <meta name="twitter:site" content="@jamesmanalang_" />
         <meta name="twitter:title" content="James' Portfolio" />
