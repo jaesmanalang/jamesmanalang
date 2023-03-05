@@ -44,8 +44,26 @@ export default function App({ Component, pageProps }) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <meta property="og:title" content="James' Portfolio" />
+        <meta
+          property="og:description"
+          content="James Manalang Web Portfolio"
+        />
+        <meta property="og:url" content="https://jamesmanalang.vercel.app" />
+        <meta property="og:type" content="website" />
+
+        <meta property="og:image" content="/preview.png" />
+        <meta name="twitter:card" content="James' Portfolio" />
+        <meta name="twitter:site" content="@jamesmanalang_" />
+        <meta name="twitter:title" content="James' Portfolio" />
+        <meta
+          name="twitter:description"
+          content="James Manalang Web Portfolio"
+        />
+        <meta name="twitter:image" content="/preview.png" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="James Manalang Web Portfolio" />
+
         <meta property="og:type" content="website" />
       </Head>
       <style jsx global>
